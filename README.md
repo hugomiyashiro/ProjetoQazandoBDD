@@ -6,7 +6,7 @@ Projeto usando Cypress e BDD
 
 npm install cypress
 
-npx install cypress --force
+npx cypress install --force
 
 npm install @badeball/cypress-cucumber-preprocessor
 
