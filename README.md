@@ -14,6 +14,6 @@ npm install @badeball/cypress-cucumber-preprocessor/esbuild
 
 ## Autor
 
-Hugo Miyashiro.
+Hugo Miyashiro
 
 Linkedin: www.linkedin.com/in/hugo-miyashiro-10273245
