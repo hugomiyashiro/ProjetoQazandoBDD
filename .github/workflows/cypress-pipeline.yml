@@ -1,5 +1,5 @@
 # Nome da pipeline
-name: Run Basic Tests
+name: Run Basic Testes
 
 # Em que momento será executada
 on:
@@ -23,7 +23,7 @@ jobs:
           uses: npm install
 
             # Execução e config do projeto
-        - name: Run Tests
+        - name: Run Testes
           uses: cypress-io/github-action@v5
           with:
             record: true
