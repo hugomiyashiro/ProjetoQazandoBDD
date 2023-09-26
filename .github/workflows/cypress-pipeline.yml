@@ -11,7 +11,7 @@ on:
 jobs:
     cypress-run:
         # máquina que será executado
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
 
         # Passo a passo para rodar os testes
         steps:
@@ -21,7 +21,7 @@ jobs:
 
             # Exemplo de execução no terminal
         - name: Instalar dependencias do projto
-          uses: echo Hugo Miyashiro
+          uses: npm install
 
             # Execução e config do projeto
         - name: Run Tests
