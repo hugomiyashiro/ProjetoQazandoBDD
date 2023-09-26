@@ -16,7 +16,7 @@ jobs:
         steps:
             # Clone do projeto
         - name: Checkout do projeto/Clone do projeto
-          uses: actions/checkout@v3
+          uses: ./.actions/checkout@v3
 
             # Exemplo de execução no terminal
         - name: Instalar dependencias do projto
@@ -24,7 +24,7 @@ jobs:
 
             # Execução e config do projeto
         - name: Run Tests
-          uses: cypress-io/github-action@v5
+          uses: ./.cypress-io/github-action@v5
           with:
             record: true
           env: 
