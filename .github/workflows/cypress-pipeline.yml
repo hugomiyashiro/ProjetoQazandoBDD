@@ -24,7 +24,7 @@ jobs:
 
             # Execução e config do projeto
         - name: Run Testes
-          uses: cypress-io/github-action@v6
+          uses: cypress-io/github-action@v5
           with:
             record: true
           env:
