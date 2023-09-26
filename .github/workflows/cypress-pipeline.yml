@@ -20,7 +20,7 @@ jobs:
 
             # Exemplo de execução no terminal
         - name: Instalar dependencias do projeto
-          uses: npm install
+          run: npm install
 
             # Execução e config do projeto
         - name: Run Testes
