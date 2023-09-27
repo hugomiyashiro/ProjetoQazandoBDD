@@ -32,7 +32,7 @@ jobs:
 
         # Upload do relatório do Mocha
         - name: upload relatório
-          uses: actions/checkout@v3
+          uses: actions/upload-artifact@v3
           with:
             name: Relatório
             path: cypress/reports/html
